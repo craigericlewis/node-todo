@@ -23,10 +23,10 @@ var newTodo = new Todo({
   completedAt: 123
 });
 
-newTodo.save().then((doc) => {
-console.log('Saved todo', doc);
-}, (e) => {
-  console.log('Unable to save todo');
-});
+// newTodo.save().then((doc) => {
+// console.log('Saved todo', doc);
+// }, (e) => {
+//   console.log('Unable to save todo');
+// });
 
 module.exports = {Todo};
